@@ -1,7 +1,7 @@
 ---
 title: Explorando Funciones de ES6
 date: 2023-06-01
-description: Explorando algunas de las nuevas funciones de ES6 en JavaScript.
+description: Servico de barberia
 author: Jane Doe
 # image: https://placehold.co/1400x900/
 image: '/public/images/post-01.png'
