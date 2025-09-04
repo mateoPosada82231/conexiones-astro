@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import BlogLayout from "../../layouts/BlogLayout.astro";
-// import '/src/styles/blog.css'
+import { Formatter } from "../../utils/formatter";
 
 export const getStaticPaths = (async () => {
     const blogPosts = await getCollection('blog');
@@ -18,17 +18,28 @@ const frontmatter = post.data;
 const {Content, headings}= await post.render();
 ---
 <BlogLayout title={frontmatter.title}>
-    <h1 class="text-xs text-gray-500 mb-0">{frontmatter.title}</h1>
-    <h4 class="text-md text-gray-400 mb-0">{frontmatter.author}</h4>
+    <h1 class="text-3xl font-bold text-white mb-2">{frontmatter.title}</h1>
+    <div class="text-gray-400 mb-4">
+        <p>Por {frontmatter.author} - {Formatter.formatDate(frontmatter.date)}</p>
+        <p>{frontmatter.description}</p>
+    </div>
+    
+    <img src={frontmatter.image} alt={frontmatter.title} class="my-4 rounded-lg w-full" />
+    
+    <div class="flex flex-wrap gap-2 mb-6">
+        {frontmatter.tags.map(tag => (
+            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-sm">{tag}</span>
+        ))}
+    </div>
 
-    <h3>Tabla de contenidos</h3>
-    <ol>
+    <h3 class="text-white mb-4">Tabla de contenidos</h3>
+    <ol class="mb-8">
         {
             headings.map((heading, index) => (
-                <li>
-                    <a href={`#${heading.slug}`}>
+                <li class="mb-1">
+                    <h3 class="text-white-400 hover:underline">
                         {index + 1} - {heading.text}
-                    </a>
+                    </h3>
                 </li>
             ))
         }
@@ -37,6 +48,6 @@ const {Content, headings}= await post.render();
     <!--Contenido -->
     <Content/>
     <div class="my-20">
-    	<a href="#btn-back">Ir arriba</a>
+        <a href="#btn-back" class="text-blue-400 hover:underline">Ir arriba</a>
     </div>
 </BlogLayout>

@@ -1,51 +1,96 @@
 ---
-title: Explorando Funciones de ES6
-date: 2023-06-01
-description: Servico de barberia
-author: Jane Doe
-# image: https://placehold.co/1400x900/
-image: '/public/images/post-01.png'
-tags: [JavaScript, ES6, Programming]
+title: La Barbería Moderna - Tradición y Estilo
+date: 2024-09-01
+description: Servicio de barberia
+author: Carlos Ramirez
+image: '/images/post-01.png'
+tags: [Barbería, Cortes de cabello, Estilo masculino, Grooming]
 ---
 
-# Explorando Funciones de ES6
+# La Barbería Moderna - Tradición y Estilo
 
-<!-- Mostrar imagen -->
-<img src="/public/images/post-01.png" width="350" alt="Explorando Funciones de ES6" />
+La barbería ha evolucionado enormemente en los últimos años, combinando técnicas tradicionales con tendencias modernas. En nuestro establecimiento, ofrecemos una experiencia completa de cuidado masculino que va más allá de un simple corte de cabello.
 
-JavaScript ES6 introdujo varias funciones nuevas que han hecho que la codificación en JavaScript sea más eficiente y agradable. Vamos a explorar algunas de estas funciones.
+## Servicios Especializados
 
-## Arrow Functions - Funciones de Flecha
+### Cortes de Cabello Clásicos y Modernos
 
-Las funciones de flecha proporcionan una nueva sintaxis para escribir expresiones de función. Son más concisas y vinculan léxicamente el valor `this`.
+Nuestros barberos expertos dominan tanto los estilos clásicos como las tendencias actuales:
 
-### Ejemplo
+- **Fade Degradado**: Desde el low fade hasta el high fade
+- **Pompadour Moderno**: El clásico reinventado para el hombre actual
+- **Undercut**: Versátil y elegante para cualquier ocasión
+- **Buzz Cut**: Limpio y profesional
 
-```javascript
-const add = (a, b) => a + b;
-console.log(add(2, 3)); // Output: 5
-```
+### Afeitado Tradicional
 
-## Template Literals - Literales de Plantilla
+Revive la experiencia del afeitado clásico con navaja:
 
-Los literales de plantilla permiten una interpolación de cadenas más fácil y cadenas de varias líneas. Utilizan comillas invertidas (\`) en lugar de comillas simples o dobles.
+- **Preparación de la piel** con toallas calientes
+- **Aplicación de crema de afeitar** de primera calidad
+- **Afeitado con navaja** realizado por manos expertas
+- **Tratamiento post-afeitado** para calmar e hidratar
 
-### Ejemplo
+## Productos Premium
 
-```javascript
-const name = 'Jane';
-console.log(`Hello, ${name}!`);
-// Output: Hello, Jane!
-```
+Utilizamos únicamente productos de las mejores marcas:
 
-## Destructuring Assignment - Asignación por Desestructuración
+- **Pomadas y ceras** para styling duradero
+- **Aceites para barba** que nutren y dan brillo
+- **Lociones aftershave** que refrescan y protegen
+- **Champús especializados** para diferentes tipos de cabello
 
-La asignación por desestructuración le permite extraer valores de matrices u objetos y asignarlos a variables de una manera más concisa.
+## Ambiente y Experiencia
 
-### Ejemplo
+### Decoración Vintage
 
-```javascript
-const person = { name: 'Jane', age: 30 };
-const { name, age } = person;
-console.log(name, age); // Output: Jane 30
-```
+Nuestro local combina la elegancia clásica con comodidades modernas:
+
+- **Sillas de barbero restauradas** de los años 50
+- **Espejos antiguos** con marcos ornamentados
+- **Música ambiente** que transporta a otra época
+- **Iluminación cálida** que crea un ambiente relajante
+
+### Atención Personalizada
+
+Cada cliente recibe un tratamiento único:
+
+1. **Consulta inicial** para entender sus preferencias
+2. **Análisis del tipo de cabello** y forma del rostro
+3. **Recomendaciones personalizadas** de estilo
+4. **Seguimiento post-servicio** para garantizar satisfacción
+
+## Tendencias Actuales
+
+### Estilos que Dominan 2024
+
+- **Mid Fade con Textura**: Perfecto para el hombre profesional
+- **Mullet Moderno**: El regreso de un clásico con toque contemporáneo
+- **Corte Texturizado**: Natural y versátil
+- **Side Part Clásico**: Elegancia atemporal
+
+### Cuidado de la Barba
+
+La barba sigue siendo protagonista:
+
+- **Perfilado preciso** que realza la masculinidad
+- **Hidratación profunda** con aceites naturales
+- **Styling personalizado** según el estilo de vida
+- **Mantenimiento regular** para lucir siempre impecable
+
+## Consejos de Mantenimiento
+
+### Cuidado Diario en Casa
+
+Para mantener tu look entre visitas:
+
+- **Usa productos de calidad** recomendados por tu barbero
+- **Peina con técnica** siguiendo la dirección natural del cabello
+- **Hidrata tu cuero cabelludo** especialmente en clima seco
+- **Programa citas regulares** cada 3-4 semanas
+
+## Reserva tu Cita
+
+En nuestra barbería, cada corte es una obra de arte. Reserva tu cita y experimenta la diferencia de un servicio profesional que combina tradición, calidad y estilo moderno.
+
+*Tu imagen es nuestra pasión*

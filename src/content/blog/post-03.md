@@ -1,92 +1,194 @@
 ---
-title: Comprendiendo los Hooks de React
-date: 2023-06-15
-description: Servico de peluqueria
-author: Alice Johnson
-image: '/public/images/post-03.png'
-tags: [React, JavaScript, Web Development]
+title: Transformación Capilar - Tu Nuevo Look te Espera
+date: 2024-08-15
+description: Servicio de peluqueria
+author: Maria Elena Vargas
+image: '/images/post-03.png'
+tags: [Peluquería, Cortes, Coloración, Tratamientos capilares]
 ---
 
-# Comprendiendo los Hooks de React
+# Transformación Capilar - Tu Nuevo Look te Espera
 
-Los Hooks de React son una característica que te permite usar el estado y otras características de React en componentes funcionales. Esto te permite escribir componentes más simples y reutilizables sin tener que convertirlos en clases.
+Tu cabello es tu corona, y en nuestro salón de peluquería nos especializamos en crear looks únicos que resalten tu belleza natural. Desde cortes vanguardistas hasta tratamientos reparadores, ofrecemos servicios completos para todo tipo de cabello.
 
-## useState Hook
+## Servicios de Corte y Estilo
 
-El `useState` hook te permite añadir estado a tus componentes funcionales.
+### Cortes Personalizados
 
-```javascript
-import React, { useState } from 'react';
+Cada corte se diseña específicamente para ti:
 
-function Counter() {
-  const [count, setCount] = useState(0);
+- **Análisis facial** para determinar el corte ideal
+- **Estudio del tipo de cabello** y su comportamiento natural
+- **Consulta de estilo** según tu personalidad y lifestyle
+- **Técnicas avanzadas** para resultados profesionales
 
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
-    </div>
-  );
-}
-```
+### Estilos Trending 2024
 
-## useEffect Hook
+#### Para Cabello Largo
+- **Layers Modernos**: Movimiento y volumen natural
+- **Wolf Cut**: Rebeldía controlada con mucha textura
+- **Curtain Bangs**: Flequillo que enmarca el rostro
+- **Long Bob**: Elegancia versátil para cualquier ocasión
 
-El `useEffect` hook te permite realizar efectos secundarios en tus componentes funcionales, como acceder a datos externos o modificar el DOM.
+#### Para Cabello Corto
+- **Pixie Cut Texturizado**: Frescura y personalidad
+- **Bob Asimétrico**: Modernidad con un toque atrevido
+- **Shag Corto**: Volumen y movimiento dinámico
+- **Buzz Cut Femenino**: Minimalismo y elegancia
 
-```javascript
-import React, { useState, useEffect } from 'react';
+## Coloración Profesional
 
-function Example() {
-  const [count, setCount] = useState(0);
+### Técnicas de Color Avanzadas
 
-  useEffect(() => {
-    document.title = `You clicked ${count} times`;
-  });
+#### Balayage
+- **Iluminación natural** que imita el efecto del sol
+- **Transición suave** entre tonos
+- **Mantenimiento sencillo** con crecimiento natural
+- **Personalización total** según tu tono de piel
 
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
-    </div>
-  );
-}
-```
+#### Babylights
+- **Mechas ultra finas** para efecto natural
+- **Luminosidad sutil** que aporta dimension
+- **Ideal para primeras coloraciones**
+- **Resultado sofisticado** y elegante
 
-## Custom Hooks
+#### Color Fantasía
+- **Colores vibrantes** para expresar tu personalidad
+- **Técnicas temporales** y permanentes
+- **Degradados únicos** con múltiples tonos
+- **Mantenimiento especializado**
 
-Puedes crear tus propios hooks personalizados para reutilizar lógica en tus componentes.
+### Coloración Correctiva
 
-```javascript
-import { useState } from 'react';
+Solucionamos problemas de coloraciones anteriores:
 
-function useCounter(initialCount) {
-  const [count, setCount] = useState(initialCount);
+- **Eliminación de tonos no deseados**
+- **Reparación de decoloraciones excesivas**
+- **Unificación de color irregular**
+- **Transición gradual** a colores naturales
 
-  const increment = () => {
-    setCount(count + 1);
-  };
+## Tratamientos Capilares Especializados
 
-  return { count, increment };
-}
-```
+### Keratina y Alisados
 
-Luego puedes usar tu hook personalizado en tus componentes.
+#### Tratamiento de Keratina
+- **Eliminación del frizz** hasta por 4 meses
+- **Cabello más manejable** y sedoso
+- **Reducción del tiempo de peinado**
+- **Protección contra la humedad**
 
-```javascript
-import React from 'react';
-import useCounter from './useCounter';
+#### Alisado Japonés
+- **Alisado permanente** para cabello rebelde
+- **Resultado duradero** hasta 6 meses
+- **Brillo espectacular** y suavidad extrema
+- **Ideal para cabellos muy rizados**
 
-function Counter() {
-  const { count, increment } = useCounter(0);
+### Tratamientos Reparadores
 
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={increment}>Click me</button>
-    </div>
-  );
-}
-```
+#### Botox Capilar
+- **Reparación profunda** de fibras dañadas
+- **Hidratación intensa** para cabello seco
+- **Eliminación de puntas abiertas**
+- **Resultado inmediato** y duradero
 
-Los Hooks de React son una poderosa característica que te permite escribir componentes más limpios y reutilizables en React. ¡Empieza a usarlos en tus proyectos hoy mismo!
+#### Olaplex
+- **Reconstrucción molecular** del cabello
+- **Reparación de daños químicos**
+- **Fortalecimiento desde la raíz**
+- **Compatible con cualquier proceso químico**
+
+## Peinados y Styling
+
+### Para Ocasiones Especiales
+
+- **Recogidos elegantes** para bodas y galas
+- **Ondas románticas** al estilo Hollywood
+- **Trenzas modernas** con acabados sofisticados
+- **Looks naturales** para eventos casuales
+
+### Styling Diario
+
+- **Blow dry perfecto** que dura varios días
+- **Ondas naturales** con técnicas sin calor
+- **Volumen en la raíz** para cabello fino
+- **Texturas definidas** para cabellos rizados
+
+## Cuidado del Cuero Cabelludo
+
+### Tratamientos Especializados
+
+- **Exfoliación capilar** para remover impurezas
+- **Masajes estimulantes** que favorecen el crecimiento
+- **Tratamientos anti-caspa** con ingredientes naturales
+- **Hidratación profunda** para cuero cabelludo seco
+
+### Diagnóstico Capilar
+
+Utilizamos tecnología avanzada para:
+
+1. **Analizar la salud** del cuero cabelludo
+2. **Identificar problemas específicos**
+3. **Crear plan de tratamiento personalizado**
+4. **Monitorear el progreso** con el tiempo
+
+## Productos Premium
+
+### Líneas Profesionales
+
+Trabajamos con las mejores marcas:
+
+- **Olaplex** para reparación molecular
+- **Kerastase** para tratamientos de lujo
+- **Redken** para color y styling
+- **Moroccanoil** para hidratación y brillo
+
+### Productos Orgánicos
+
+Para quienes prefieren opciones naturales:
+
+- **Libre de sulfatos y parabenos**
+- **Ingredientes orgánicos certificados**
+- **Aceites esenciales puros**
+- **Formulaciones veganas**
+
+## Experiencia de Salon
+
+### Ambiente de Lujo
+
+- **Espacios amplios** y bien iluminados
+- **Música relajante** para tu comodidad
+- **Servicio de bebidas** durante tu visita
+- **WiFi gratuito** para mantenerte conectada
+
+### Equipo Profesional
+
+Nuestros estilistas están:
+
+- **Certificados internacionalmente**
+- **En constante capacitación**
+- **Especializados en diferentes técnicas**
+- **Comprometidos con la excelencia**
+
+## Consejos de Mantenimiento
+
+### Cuidado Post-Servicio
+
+Para prolongar los resultados:
+
+- **Usa productos recomendados** por tu estilista
+- **Evita el calor excesivo** los primeros días
+- **Programa mantenimientos regulares**
+- **Protege tu cabello** del sol y cloro
+
+### Frecuencia de Visitas
+
+- **Corte**: cada 6-8 semanas
+- **Color**: cada 6-10 semanas
+- **Tratamientos**: según necesidad específica
+- **Styling**: para ocasiones especiales
+
+## Tu Transformación Comienza Aquí
+
+En nuestro salón, cada servicio es una experiencia personalizada diseñada para realzar tu belleza única. Confía en nuestros expertos para lograr el look de tus sueños.
+
+*Porque mereces lucir espectacular todos los días*

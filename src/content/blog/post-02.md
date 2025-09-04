@@ -1,110 +1,143 @@
 ---
-title: Empezando con Flutter
-date: 2024-08-10
+title: Manicura Perfecta - Arte en tus Manos
+date: 2024-08-25
 description: Servicio de manicura
-author: John Smith
-image: '/public/images/post-02.png'
-tags: [Flutter, Mobile Development, Dart]
+author: Isabella Torres
+image: '/images/post-02.png'
+tags: [Manicura, Nail Art, Belleza, Cuidado de uñas]
 ---
 
-# Empezando con Flutter
+# Manicura Perfecta - Arte en tus Manos
 
-Flutter es un kit de herramientas de IU para construir aplicaciones compiladas nativamente para móviles, web y escritorio desde un único código base.
+Tus manos hablan de ti antes de que digas una palabra. En nuestro salón de manicura, transformamos tus uñas en pequeñas obras de arte que reflejan tu personalidad y estilo único.
 
-## Instalación de Flutter
+## Servicios de Manicura Especializados
 
-Para comenzar a desarrollar con Flutter, primero necesitas instalar el SDK de Flutter en tu sistema. Puedes seguir las instrucciones de instalación en la [documentación oficial de Flutter](https://flutter.dev/docs/get-started/install).
+### Manicura Clásica
 
-```bash
-flutter doctor
-```
+La base perfecta para unas manos hermosas:
 
-Este comando te ayudará a verificar si tienes todo lo necesario para comenzar a desarrollar con Flutter.
+- **Limado y forma** personalizada según tus preferencias
+- **Cutícula tratada** con técnicas profesionales
+- **Exfoliación suave** para eliminar células muertas
+- **Hidratación profunda** con cremas especializadas
+- **Esmaltado perfecto** con acabado duradero
 
-## Creación de un Nuevo Proyecto
+### Manicura Francesa
 
-Puedes crear un nuevo proyecto de Flutter utilizando el siguiente comando:
+Elegancia atemporal que nunca pasa de moda:
 
-```bash
-flutter create my_first_app
-cd my_first_app
-```
+- **Base natural** que realza la belleza de tus uñas
+- **Línea blanca precisa** aplicada a mano alzada
+- **Acabado brillante** que dura hasta 2 semanas
+- **Variaciones modernas** con colores pasteles y metálicos
 
-Esto creará un nuevo proyecto de Flutter en el directorio `my_first_app`.
+## Tendencias en Nail Art 2024
 
-## Ejecución de la Aplicación
+### Diseños que Marcan Tendencia
 
-Para ejecutar tu aplicación de Flutter, puedes utilizar el siguiente comando:
+- **Minimalist Nails**: Elegancia en la simplicidad
+- **Chrome Effect**: Acabados metálicos futuristas
+- **Marble Design**: Patrones marmoleados únicos
+- **Floral Art**: Flores delicadas pintadas a mano
+- **Geometric Patterns**: Líneas y formas geométricas modernas
 
-```bash
-flutter run
-```
+### Técnicas Especializadas
 
-Esto compilará y ejecutará tu aplicación en un emulador o dispositivo conectado. ¡Ahora puedes ver tu aplicación en acción!
+#### Gel UV
+- **Duración extendida** hasta 3 semanas
+- **Secado inmediato** bajo lámpara UV
+- **Brillo intenso** que no se opaca
+- **Resistencia superior** a golpes y rayones
 
-## Escribiendo tu Primera Aplicación
+#### Acrílico
+- **Extensión de uñas** para longitud deseada
+- **Fortalecimiento** de uñas débiles o quebradizas
+- **Versatilidad** en diseños y formas
+- **Durabilidad excepcional**
 
-Puedes editar el archivo `lib/main.dart` para comenzar a escribir tu aplicación de Flutter. Aquí tienes un ejemplo de una aplicación de contador simple.
+## Cuidado y Salud de las Uñas
 
-```dart
-import 'package:flutter/material.dart';
+### Análisis Profesional
 
-void main() {
-  runApp(MyApp());
-}
+Antes de cualquier tratamiento, realizamos:
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      home: MyHomePage(),
-    );
-  }
-}
+1. **Evaluación del estado** de uñas y cutículas
+2. **Identificación de problemas** como hongos o fragilidad
+3. **Recomendaciones personalizadas** de tratamiento
+4. **Plan de cuidado** para mantener la salud
 
-class MyHomePage extends StatefulWidget {
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
+### Tratamientos Reparadores
 
-class _MyHomePage
+- **Fortalecedores naturales** con vitaminas y minerales
+- **Aceites nutritivos** para cutículas secas
+- **Mascarillas hidratantes** para manos agrietadas
+- **Terapias antienvejecimiento** para mantener la juventud
 
-State extends State<MyHomePage> {
-  int _counter = 0;
+## Colores y Acabados
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+### Paleta de Temporada
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Flutter Demo'),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
-    );
-  }
-}
-```
+#### Primavera-Verano
+- **Coral vibrante** que evoca el atardecer
+- **Lavanda suave** para un toque romántico
+- **Amarillo solar** que irradia energía
+- **Azul cielo** refrescante y elegante
+
+#### Otoño-Invierno
+- **Burgundy profundo** sofisticado y elegante
+- **Verde esmeralda** que aporta glamour
+- **Dorado metalizado** para ocasiones especiales
+- **Negro mate** atemporal y chic
+
+### Acabados Especiales
+
+- **Mate**: Elegancia moderna sin brillo
+- **Glitter**: Destellos para ocasiones festivas
+- **Holográfico**: Efectos cambiantes según la luz
+- **Texturas**: Arena, terciopelo y efectos 3D
+
+## Experiencia de Lujo
+
+### Ambiente Relajante
+
+Nuestro salón está diseñado para tu comodidad:
+
+- **Sillas de masaje** para relajación total
+- **Música ambiental** que calma los sentidos
+- **Aromaterapia** con esencias naturales
+- **Iluminación LED** perfecta para el trabajo detallado
+
+### Productos Premium
+
+Utilizamos únicamente las mejores marcas:
+
+- **OPI** para esmaltes de larga duración
+- **Essie** para colores de tendencia
+- **CND** para tratamientos profesionales
+- **Productos orgánicos** libres de químicos agresivos
+
+## Consejos de Mantenimiento
+
+### Cuidado Diario
+
+Para prolongar la duración de tu manicura:
+
+- **Usa guantes** para tareas domésticas
+- **Aplica aceite de cutícula** cada noche
+- **Evita usar las uñas** como herramientas
+- **Hidrata las manos** varias veces al día
+
+### Programación Regular
+
+- **Manicura básica**: cada 2-3 semanas
+- **Tratamientos especiales**: según necesidad
+- **Retoque de esmalte**: cada semana
+- **Cuidado de cutículas**: cada 10 días
+
+## Reserva tu Cita de Belleza
+
+Permítenos cuidar de tus manos con la atención y profesionalismo que mereces. Cada detalle cuenta cuando se trata de realzar tu belleza natural.
+
+*Porque tus manos merecen lo mejor*
+
