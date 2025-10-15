@@ -1,6 +1,6 @@
 # Astro Starter Kit: Basics
 
-prueba
+exposicion
 
 ```sh
 pnpm create astro@latest -- --template basics
